@@ -1,0 +1,195 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}   
+#navbar{
+    display:flex;
+    align-items: center;
+    position: relative;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity:0.4;
+}
+#logo{
+    margin: 0px 23px;
+}#logo img{
+    height:79px;
+    width:93px;
+    margin: 3px 6px;
+}
+#navbar ul{
+    display:flex;
+    
+}#navbar ul li{
+    color:aquamarine;
+    list-style: none;
+    font-size:1.3rem;
+    font-family: 'Playball', cursive;
+    
+}#navbar ul li a{
+    display:block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+}#navbar ul li:hover{
+    color:black;
+    background-color:  rgb(216, 192, 255);
+}#home{
+    display:flex;
+    flex-direction: column;
+    padding: 10px 200px;
+    height: 610px;
+    justify-content: center;
+    align-items: center;
+    color: #e400ff82;
+    font-family: 'Playball', cursive;
+}
+#home::before{
+    content:"";
+    position: absolute;
+    background:url('image1.jpg')no-repeat center center/cover;
+    height: 100%;
+    width:100%; 
+    z-index: -1;  
+    opacity: 0.9; 
+}#home h1{
+    color:white;
+    text-align:center;
+font-family: 'Playball', cursive;
+}#home p{
+    color:white;
+    text-align:center;
+    font-family: 'Playball', cursive;
+    font-size: 1.8rem;
+    
+}
+.h_primary{
+    font: size 3.8rem;
+    padding: 34px;
+    font-family: 'Playball', cursive;
+}
+/* sERvice section */
+#simple{
+    margin : 34px;
+    display:flex;
+}
+#simple .Box{
+    border: 2px solid brown;
+    width: 100%;
+    padding: 34px;
+    margin:3px 6px;
+    border-radius: 23px;
+    background: rgb(129 119 119 / 17%);
+}#simple .Box img{
+    height: 156px;
+    margin:auto;
+    display:block;
+}simple.Box p{
+    font-family: 'Playball', cursive;
+}
+/* Clienet section */
+#client-section{
+    height: 344px;
+}
+#client-section::before{
+    content:"";
+    position: absolute;
+    background: url('download5.jpg')no-repeat center center/cover;
+     width: 111%;
+    height: 50%;
+    z-index: -1;
+    opacity: 0.5;
+
+}
+#client{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#client img{
+    height: 145px;
+}.client-item{
+    padding: 20px;
+}.primary_client{
+    text-align: center;
+    font-size: 42px;
+}
+/* contact secton */
+#contact{
+    position:relative;
+}
+#contact::before{
+    content:"";
+    position: absolute;
+    width:100%;
+    height:100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('conatct1.webp')no-repeat center center/cover;
+} 
+#contact-box{
+    display: flex;
+    justify-content: center;
+    text-align:center;
+    padding: 34px;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-family: 'Playball', cursive;
+}#contact-box form{
+    width: 40%;
+}
+#contact-box lable{
+    text-align: left;
+    font-size: 1.4rem;
+    color: black;
+}
+
+
+
+
+
+/* footer section */
+footer{
+    background-color: #111;
+    color:whitesmoke;
+    padding:9px 20px;
+}
+/* uTILITY class */
+.h-primary{
+    font-size:3.8rem;
+    padding:12px;
+}.h-secondary{
+font-size:2.8rem;
+padding: 12px;
+text-align: center;
+}
+
+c
+.btn{
+    padding: 10px 12px;
+    border:2px solid aqua;
+    background:bisque;
+    margin: 15px;
+    text-transform:unset;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor:pointer;
+}
+.center{
+    text-align: center;
+
+}
